@@ -1,0 +1,1 @@
+I'm a data scientist working on the intersection of causal inference and machine learning. I periodically post statistics/machine-learning/econometrics papers, linux stuff, and a bizarre collection of music.

@@ -1,0 +1,58 @@
+=: title Setting up an RSS feed blog for (somewhat) normal people
+=: publish_at 2023-07-02
+=: tags computation
+
+Since the internet schelling point of twitter is disintigrating, and I am not self-important enough to create a substack for random bullshit I might want to post, I've decided to go back to rss feeds using lists.sh. lists is very barebones (every post is a plaintext file).
+
+## Creating an account
+To create an account run
+```
+ssh new@lists.sh
+```
+After initial setup, create a directory and sync using an alias
+```
+alias listsSync="scp ~/path_to_blog_root/*.md lists.sh:/"
+```
+## Following others
+Follow people using their RSS feed `https://{username}.lists.sh/rss`, e.g. `https://apoorvalal.lists.sh/rss` on your favourite RSS reader
+This works for substacks too: substacks expose an rss feed at `<someoneImportant>.substack.com/feed`
+=> https://hey.lists.sh/rss-readers lists devs recommendations
+=> https://feeds.sh/ Email digest creator tool by the same devs
+
+## Syntax
+Linebreaks create new bullet points
+Here's a bare link
+=> https://lists.sh/
+=> https://lists.sh/spec Here's a hyperlink
+Headers are constructed using markdown syntax (#, ## etc)
+Lists are created using whitespace
+
+first item
+    second item
+        third item
+last item
+
+
+## Try it yourself
+To get started, here's a truncated version of the contents of this post (store in in
+testing.txt in ~/path_to_blog_root to get started and sync to your username)
+```
+=: title blogging using RSS again
+=: publish_at 2023-07-03
+
+Since the internet schelling point of twitter is disintigrating, and I am not self-important enough to create a substack for random bullshit I might want to post, I might go back to rss feeds. Lists is very barebones (every post is a plaintext file).
+Linebreaks create new bullet points
+Here's a bare link
+=> https://lists.sh/
+=> https://lists.sh/spec Here's a hyperlink
+To create an account run
+ssh new@lists.sh
+Create a directory and sync using an alias
+alias listsSync="scp ~/path_to_blog_root/*.md lists.sh:/"
+## headers and lists
+
+first item
+    second item
+        third item
+last item
+```

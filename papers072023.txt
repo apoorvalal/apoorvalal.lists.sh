@@ -1,0 +1,13 @@
+=: title blahrXiv 03-07-2023
+=: publish_at 2023-07-03
+=: tags blahrXiv, causal, ml
+
+Going to post interesting looking papers fresh (or slightly stale) off the arXiv and relevant journal RSS feeds here (hopefully on a fortnightly basis)
+
+=> https://arxiv.org/abs/2306.13681 Empirical bayes methods to quantify value of experimental results
+=> https://arxiv.org/abs/2306.17464 CATE-thresholding [essential step in policy learning: estimate DR scores, then subset to units exceeding a given threshold, say 0]
+=> https://arxiv.org/abs/2306.11979 Related to ^ ; QINI curves are central quantities in policy learning -- constructing them for K-armed settings is useful
+=> https://arxiv.org/abs/2306.15048 Partial identification of effect heterogeneity using CDFs of Y^1 and Y^0
+=> https://arxiv.org/abs/2210.08589 Anytime valid confidence sequences for linear models (COI: these are my past and future colleagues)
+=> https://arxiv.org/abs/1509.09169 Updates to open textbook on ridge regression
+=> https://arxiv.org/abs/2306.16838 Optimisation tricks for Kernel Ridge Regression
