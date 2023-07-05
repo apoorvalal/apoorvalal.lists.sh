@@ -1,0 +1,30 @@
+=: title Bloggy scientific writing that I liked
+=: publish_at 2023-07-05
+=: tags stats, causal, ml, links
+
+=> http://bactra.org/notebooks/instrumental-variables.html Cosma Shalizi on (first linear, then nonparametric) instrumental variables from first principles.
+=> https://danmackinlay.name/notebook/domain_adaptation.html Dan Mackinlay on transfer learning / domain adaptation
+=> https://francisbach.com/cursed-kernels/ Francis Bach on Kernel Regression and the curse of dimensionality
+=> http://datacolada.org/109 Barely a couple of weeks old, but already famous 4 parter on scientific fraud in social psych that beggars belief
+=> https://causalinf.substack.com/p/has-diff-in-diff-lowered-the-price Scott Cunningham on Diff-in-Diffs vs Synth, with some Tom Friedman-esque metaphor mixing and distracting flights of fancy
+	Extracts
+	> Something about synth has always felt like an old sheep Dog. It doesn’t pretend to be a greyhound and make promises in part because it overshares.
+	> But that’s like saying “Use a hammer to cook your dinner unless your dinner isn’t a nail, in which case use an oven.” It’s kind of odd to tell someone to try to use something for which it isn’t designed — you should instead go directly to the tool that is designed for that problem. When you need to hang a picture, you use a hammer. When you need to cook lasagna, you don’t, and you shouldn’t try unless you’re wanting to make a huge mess. When it’s dinner time, skip the hammer and go to the oven.
+
+## Charpentier's probabilistic foundations series
+
+### econometrics
+=> https://freakonometrics.hypotheses.org/57649
+=> https://freakonometrics.hypotheses.org/57674
+=> https://freakonometrics.hypotheses.org/57693
+=> https://freakonometrics.hypotheses.org/57703
+
+### machine learning
+=> https://freakonometrics.hypotheses.org/57705
+=> https://freakonometrics.hypotheses.org/57745
+=> https://freakonometrics.hypotheses.org/57782
+=> https://freakonometrics.hypotheses.org/57790
+=> https://freakonometrics.hypotheses.org/57813
+
+### bibliography
+=> https://freakonometrics.hypotheses.org/57737

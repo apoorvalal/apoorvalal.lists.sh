@@ -1,6 +1,6 @@
 =: title blahrXiv 03-07-2023
 =: publish_at 2023-07-03
-=: tags blahrXiv, causal, ml
+=: tags blahrXiv, stats, causal, ml, links
 
 Going to post interesting looking papers fresh (or slightly stale) off the arXiv and relevant journal RSS feeds here (hopefully on a fortnightly basis)
 
