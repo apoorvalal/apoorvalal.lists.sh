@@ -1,0 +1,17 @@
+=: title blahrXiv 17-07-2023
+=: publish_at 2023-07-17
+=: tags blahrXiv, stats, causal, ml, links
+
+blahrXiv is a commitment device for me to read papers from arxiv rss feeds + misc papers found on social media
+
+=> https://arxiv.org/abs/2307.04527 Expository article on double/debiased/automatic machine learning (AIPW with `automatic' estimation of the Riesz representer) by not one but two Neweys
+	=> https://arxiv.org/abs/2304.14545 Bruns-Smith et al provide an interesting general characterisation of this approach
+=> https://arxiv.org/abs/2305.10898 Generalised Method of Moments / Generalised Empirical Likelihood in RKHS
+=> https://arxiv.org/abs/2307.07320 Adaptive Linear Estimating Equations (GMM as taught on the other side of campus) for online regressions characterised by a linear moment condition
+=> https://arxiv.org/abs/2307.06024 `balance` python package for flexible IPW / covariate balancing propensity score methods made by folks at Meta
+=> https://arxiv.org/abs/2303.11582 Best arm identification through approximate dynamic programming
+=> https://blogs.worldbank.org/impactevaluations/curated-list-our-postings-technical-topics-your-one-stop-shop-methodology-0?CID=WBW_AL_BlogNotification_EN_EXT WB blog archive on methods topics
+=> https://arxiv.org/abs/2307.00835 Nonparametric regression for extrapolation through additive noise
+=> https://arxiv.org/abs/2206.02994 Clean exposition of nonparametric regression using sieves + R package
+=> https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4487202 CdH in progress book on difference in differences
+=> https://arxiv.org/abs/2306.03816 Neyman orthogonality for the partially linear regression (Bayesian version)

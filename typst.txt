@@ -1,0 +1,31 @@
+=: title Typst setup for local use
+=: publish_at 2023-07-17
+=: tags computation, typesetting, unix
+
+=> https://typst.app/docs/ typst is a promising alternative to latex for technical writing
+    typst syntax is close enough to tex/markdown that If you guess it'll work, it typically does
+    latex is a bloated mess with a byzantine set of interlocking dependencies
+    Pandoc/markdown writing is fine but uses tex on the back end, but this is just kicking the can down the road
+    Quarto is building support for typst in their new release, which should hopefully aid adoption
+=> https://github.com/typst/typst it is actively developed and can be installed from the releases page here
+    => https://formulae.brew.sh/formula/typst or via homebrew
+I wrote myself a quick build system for it in sublime text (which I stubbornly continue to use for writing because it is lean and feels snappier than vscode, which I use for almost all my programming tasks)
+This file is stored in `<sublime_config_dir>/User/typst.sublime-build` where <sublime_config_dir> depends on your OS. You can open it in your file manager using `Preferences > Browse Packages` on sublime.
+```
+{
+    "shell_cmd": "typst watch \"$file_name\" & okular \"$file_base_name\".pdf",
+    "selector": "source.lua",
+    "working_dir": "$file_path",
+    "path": "/home/linuxbrew/.linuxbrew/bin:$PATH"
+}
+```
+
+This lets me hit `ctrl+b` once when I initially start writing a typst file to ask typst to *watch* a file, which typst interprets as
+    Compile the file now
+    Then watch for changes, so every time I save the `.typ` document file, it gets recompiled into pdf instantaneously
+Interactive use looks like this
+=< https://i.imgur.com/JYRR7ej.png typst
+Syntax highlighting is set to `lua` because I don't write lua and the keywords seem to match
+This this is also easy to achieve with other editors (just run the equivalent of `typst watch` in an inbuilt console, e.g. on vscode or nvim)
+
+=> https://typst.app/ It also has an overleaf-like web client that runs without any local installation
